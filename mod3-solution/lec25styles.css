@@ -1,0 +1,129 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+@media(min-width:992px){
+  #box0, #box00{
+    width: 33.33%;
+  }
+}
+@media(min-width:768px) and (max-width:991px){
+  #box0{
+    width: 50%;
+  }
+  #box00{
+    width: 100%;
+  }
+}
+@media(max-width:767px){
+  #box0, #box00{
+    width: 100%;
+  }
+}
+h1{
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+#box0, #box00{
+  padding:20px;
+  float:left;
+  box-sizing: border-box;
+}
+#box0> #box,#box00> #box1{
+  background-color: #77FFFF;
+  border:5px solid black;
+  padding:5px 5px 5px 5px;
+  box-sizing: border-box;
+  height: 250px;
+  position: relative;
+}
+#p1,#p3,#p4{
+  width: 100px;
+  text-align: center;
+  border-bottom:5px solid black;
+  border-left:5px solid black;
+  float:right;
+  position:relative;
+  left:5px;
+  bottom:25px;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 120%;
+
+}
+#p1{
+  background-color: #FFAAEE;
+}
+#p3{
+  background-color: #EE4400;
+}
+#p4{
+  background-color: #AAAA55;
+}
+#p2{
+  font-size: 125%;
+  font-family: serif;
+  text-align: left;
+}
